@@ -7,7 +7,6 @@ import "../../array/LibUint256Array.sol";
 import "../../memory/LibMemorySize.sol";
 import "hardhat/console.sol";
 import {SafeCastUpgradeable as SafeCast} from "@openzeppelin/contracts-upgradeable/utils/math/SafeCastUpgradeable.sol";
-import {SourceIndex, Operand} from "./RainVM.sol";
 
 enum DebugStyle {
     Stack,

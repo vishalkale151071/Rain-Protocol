@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: CAL
 pragma solidity ^0.8.15;
 
-import "./RainVM.sol";
 import "../../array/LibUint256Array.sol";
 import "../../bytes/LibBytes.sol";
 
 /// Custom type to point to memory ostensibly in a stack.
 type StackTop is uint256;
+type SourceIndex is uint256;
+type Operand is uint256;
 
 /// @title LibStackTop
 /// @notice A `StackTop` is just a pointer to some memory. Ostensibly it is the
